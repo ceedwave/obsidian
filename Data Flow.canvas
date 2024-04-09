@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"6d517ee4186095b5","type":"text","text":"Meta 에서 개발 \n- Hive : java > sql 변환","x":-280,"y":-60,"width":250,"height":120},
+		{"id":"59ced63208fa30b7","type":"text","text":"Map reduce","x":-225,"y":150,"width":250,"height":60},
+		{"id":"20d212f64d3d7887","type":"text","text":"Hive","x":-100,"y":290,"width":250,"height":60},
+		{"id":"bf6c9cc8e1a0b362","type":"text","text":"Java","x":-280,"y":-180,"width":250,"height":60},
+		{"id":"0b7d85786a4b3890","type":"text","text":"ML, DL -> 예측, 분류","x":60,"y":420,"width":250,"height":60},
+		{"id":"c180dd61687ad17a","type":"text","text":"데이터 레이크","x":150,"y":-190,"width":705,"height":410},
+		{"id":"a3486dabdcfd4a5a","type":"text","text":"Hadoop","x":378,"y":-220,"width":250,"height":60},
+		{"id":"63c868f7dc082f6a","type":"text","text":"구매팀 DB\n","x":220,"y":-80,"width":250,"height":60},
+		{"id":"82fa6a21f44c4d4c","type":"text","text":"HR DB","x":220,"y":50,"width":250,"height":60},
+		{"id":"c50e6ede2b149d46","type":"text","text":"R&D DB","x":540,"y":-80,"width":250,"height":60},
+		{"id":"b659631a58304e16","type":"text","text":"생산팀 DB","x":540,"y":50,"width":250,"height":60},
+		{"id":"f1996d1b0e895322","type":"text","text":"공급망 관리(SCM, Supply Chain Management)","x":-260,"y":420,"width":250,"height":60},
+		{"id":"bda9d8fb9321b626","type":"text","text":"Apache Spark","x":920,"y":20,"width":250,"height":60},
+		{"id":"9776e8f32cb42f57","type":"text","text":"spark\n- funtional programing\n- func -> func\n- 병렬처리(분산처리)","x":988,"y":-200,"width":250,"height":163},
+		{"id":"ef1d1fe80d640f6f","type":"text","text":"Data Bricks","x":1113,"y":140,"width":250,"height":60},
+		{"id":"3be8f13a19aed801","type":"text","text":"scala language\n- pyspark\n- sparkR\n","x":1305,"y":-143,"width":250,"height":163},
+		{"id":"0e94205225d06d83","type":"text","text":"Snowflake","x":1113,"y":220,"width":250,"height":60},
+		{"id":"874401a7d3788afd","x":470,"y":320,"width":250,"height":60,"type":"text","text":"cloud storage"},
+		{"id":"17ddaf2b73b1ab3d","type":"text","text":"데이터 웨어하우스 / 데이터 마트","x":630,"y":450,"width":290,"height":60},
+		{"id":"16f76a27326cc450","x":470,"y":580,"width":250,"height":60,"type":"text","text":"Business Inteligence"}
+	],
+	"edges":[
+		{"id":"de78bb08b912a0fd","fromNode":"6d517ee4186095b5","fromSide":"bottom","toNode":"59ced63208fa30b7","toSide":"top"},
+		{"id":"7b9800c473ffda4d","fromNode":"59ced63208fa30b7","fromSide":"bottom","toNode":"20d212f64d3d7887","toSide":"top"},
+		{"id":"4fcdbff1f1411e4b","fromNode":"20d212f64d3d7887","fromSide":"bottom","toNode":"0b7d85786a4b3890","toSide":"top"},
+		{"id":"1c28bf48fc295d65","fromNode":"9776e8f32cb42f57","fromSide":"bottom","toNode":"bda9d8fb9321b626","toSide":"top"},
+		{"id":"aa9fde637088be38","fromNode":"bda9d8fb9321b626","fromSide":"bottom","toNode":"ef1d1fe80d640f6f","toSide":"left"},
+		{"id":"50400a75ea8455a9","fromNode":"9776e8f32cb42f57","fromSide":"right","toNode":"3be8f13a19aed801","toSide":"left"},
+		{"id":"a9e61a7d151c7622","fromNode":"a3486dabdcfd4a5a","fromSide":"top","toNode":"9776e8f32cb42f57","toSide":"top"},
+		{"id":"b63147e0efffff31","fromNode":"c180dd61687ad17a","fromSide":"bottom","toNode":"874401a7d3788afd","toSide":"top"},
+		{"id":"9335b839444e283c","fromNode":"874401a7d3788afd","fromSide":"bottom","toNode":"17ddaf2b73b1ab3d","toSide":"top"},
+		{"id":"26b3d41a31ca0b31","fromNode":"17ddaf2b73b1ab3d","fromSide":"bottom","toNode":"16f76a27326cc450","toSide":"top"}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"92b194eae5c5b1a1","type":"text","text":"user","x":-465,"y":-480,"width":250,"height":50},
+		{"id":"c6088d5edf842db9","type":"text","text":"web","x":40,"y":-320,"width":250,"height":69},
+		{"id":"64b6c737646db365","type":"text","text":"was","x":360,"y":-320,"width":250,"height":69},
+		{"id":"615354a5a0a56b6a","type":"text","text":"web","x":40,"y":-205,"width":250,"height":69},
+		{"id":"8b0a266ab7b9c745","type":"text","text":"web\n- Nginx\n- Apache","x":40,"y":-89,"width":250,"height":149},
+		{"id":"84fc8f362363f10d","type":"text","text":"was","x":360,"y":-205,"width":250,"height":69},
+		{"id":"cc8b744867a06485","type":"text","text":"was\n- Tomcat","x":360,"y":-89,"width":250,"height":149},
+		{"id":"5c531a145a46d6dd","type":"text","text":"django 사용 시 web + was 역할을 한 번에 수행","x":40,"y":-420,"width":570,"height":69},
+		{"id":"e5b3b4374f91c85e","type":"text","text":"source code","x":120,"y":-310,"width":150,"height":50},
+		{"id":"e1d6f2db58fd6847","type":"text","text":"Load Balancing","x":-380,"y":-315,"width":250,"height":60},
+		{"id":"f9c20bdf38e96060","type":"text","text":"model server\n- django\n- flask\n- fast api","x":700,"y":-315,"width":250,"height":179},
+		{"id":"7b885fb56525d56d","type":"text","text":"traditanal","x":-465,"y":-600,"width":250,"height":60},
+		{"id":"0707654c624e7dde","type":"text","text":"docker","x":-380,"y":260,"width":250,"height":60},
+		{"id":"fc975ba37aa9d16f","type":"text","text":"devdops","x":-380,"y":140,"width":250,"height":60},
+		{"id":"7d3375a28d501ef2","type":"text","text":"Data > EDA > Training","x":1000,"y":-420,"width":250,"height":69},
+		{"id":"6522073fd3dfa443","type":"text","text":"container","x":40,"y":260,"width":250,"height":60},
+		{"id":"2e8e460bdf1ac9a9","type":"text","text":"container","x":360,"y":260,"width":250,"height":60},
+		{"id":"d1bbfd79cfd6b6bb","type":"text","text":"container","x":360,"y":380,"width":250,"height":60},
+		{"id":"0caa8cb447aa92c7","type":"text","text":"container","x":40,"y":380,"width":250,"height":60},
+		{"id":"41966bfb37ae0645","type":"text","text":"container","x":40,"y":140,"width":250,"height":60},
+		{"id":"82ce27b9fc31eccb","type":"text","text":"container","x":360,"y":140,"width":250,"height":60},
+		{"id":"e7acc8b26776d120","type":"text","text":"DataBase","x":-380,"y":380,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"4bf4b6c9304d16d3","fromNode":"92b194eae5c5b1a1","fromSide":"bottom","toNode":"e1d6f2db58fd6847","toSide":"top"},
+		{"id":"3a01d5566fd45e22","fromNode":"e1d6f2db58fd6847","fromSide":"right","toNode":"c6088d5edf842db9","toSide":"left"},
+		{"id":"0ee0cab14db3a080","fromNode":"c6088d5edf842db9","fromSide":"right","toNode":"64b6c737646db365","toSide":"left"},
+		{"id":"b9014dca559c2762","fromNode":"64b6c737646db365","fromSide":"right","toNode":"f9c20bdf38e96060","toSide":"left"},
+		{"id":"cf93994cb2b0fe59","fromNode":"e1d6f2db58fd6847","fromSide":"right","toNode":"615354a5a0a56b6a","toSide":"left"},
+		{"id":"8d92102122862d38","fromNode":"e1d6f2db58fd6847","fromSide":"right","toNode":"8b0a266ab7b9c745","toSide":"left"},
+		{"id":"2fbe91bc11158db4","fromNode":"615354a5a0a56b6a","fromSide":"right","toNode":"84fc8f362363f10d","toSide":"left"},
+		{"id":"ea563c7b50ec8dcd","fromNode":"8b0a266ab7b9c745","fromSide":"right","toNode":"cc8b744867a06485","toSide":"left"},
+		{"id":"a2b684d22541b3f8","fromNode":"f9c20bdf38e96060","fromSide":"right","toNode":"7d3375a28d501ef2","toSide":"bottom"},
+		{"id":"d42b54f3f14d76a5","fromNode":"7d3375a28d501ef2","fromSide":"bottom","toNode":"f9c20bdf38e96060","toSide":"right"}
+	]
+}
