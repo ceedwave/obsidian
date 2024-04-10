@@ -17,9 +17,9 @@
 		{"id":"ef1d1fe80d640f6f","type":"text","text":"Data Bricks","x":1113,"y":140,"width":250,"height":60},
 		{"id":"3be8f13a19aed801","type":"text","text":"scala language\n- pyspark\n- sparkR\n","x":1305,"y":-143,"width":250,"height":163},
 		{"id":"0e94205225d06d83","type":"text","text":"Snowflake","x":1113,"y":220,"width":250,"height":60},
-		{"id":"874401a7d3788afd","x":470,"y":320,"width":250,"height":60,"type":"text","text":"cloud storage"},
+		{"id":"874401a7d3788afd","type":"text","text":"cloud storage","x":470,"y":320,"width":250,"height":60},
 		{"id":"17ddaf2b73b1ab3d","type":"text","text":"데이터 웨어하우스 / 데이터 마트","x":630,"y":450,"width":290,"height":60},
-		{"id":"16f76a27326cc450","x":470,"y":580,"width":250,"height":60,"type":"text","text":"Business Inteligence"}
+		{"id":"16f76a27326cc450","type":"text","text":"Business Inteligence","x":470,"y":580,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"de78bb08b912a0fd","fromNode":"6d517ee4186095b5","fromSide":"bottom","toNode":"59ced63208fa30b7","toSide":"top"},
